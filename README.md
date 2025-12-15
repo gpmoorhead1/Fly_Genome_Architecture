@@ -2,6 +2,8 @@
 
 ## Title: Investigating the Effect of Genomic Bin Size on Drosophila Micro-C Contact Maps
 
+[Final Presentation Link](https://docs.google.com/presentation/d/1wiIgRGVr7E9tsBvFEbMU_a2GpPT3sD85OgvdduDIj_I/edit?slide=id.p#slide=id.p)
+
 ## Description
 For our project, we’re hoping to implement a processing pipeline for analyzing Drosophila Micro-C data. We plan to generate contact maps for the Drosophila genome (and select loci) over varying sizes of genomic bins. We’re inspired by a figure from the Peer Review Author Response in Bing et al. 2024 (eLife, hence the publicly accessible peer-review). One reviewer’s critique rested on the fact that certain features that frequently appear in mammalian Hi-C maps are not frequently detected in fly maps (dots at the tips of pyramids,stripes on the sides of pyramids, etc.). The authors responded by taking Mammalian Micro-C data binned at 5kb and re-generating heatmaps at smaller bins down to 200bp, which led to the disappearance of certain artifacts. The authors reasoned that these ‘features’ in mammalian contact maps are from higher bin sizes than in fly contact maps. We aim to ask this question in reverse—does increasing bin size in fly contact maps lead to the appearance of such artifacts?
 
